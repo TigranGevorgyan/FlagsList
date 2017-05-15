@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlagsList</string>
+    <string name="btn_1">List</string>
+    <string name="btn_2">Grid</string>
+    <string name="welcome">see flags in list</string>
+    <string name="welcome2">see flags in grid</string>
+    <string name="here_are_all">Here are all the flags</string>
+</resources>

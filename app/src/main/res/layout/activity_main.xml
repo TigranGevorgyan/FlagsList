@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.taron.flagslist.MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/act_all_flags_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/here_are_all"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/act_see_flags_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/act_all_flags_tv"
+            android:text="@string/welcome"/>
+        <Button
+            android:id="@+id/act_liner_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/act_see_flags_list"
+            android:layout_marginStart="10dp"
+            android:layout_alignBaseline="@id/act_see_flags_list"
+            android:layout_alignParentEnd="true"
+            android:text="@string/btn_1"
+            />
+
+        <TextView
+            android:id="@+id/act_see_flags_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_below="@id/act_see_flags_list"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/welcome2"/>
+
+        <Button
+            android:id="@+id/act_grid_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/act_see_flags_grid"
+            android:layout_marginStart="6dp"
+            android:layout_alignBaseline="@id/act_see_flags_grid"
+            android:layout_alignParentEnd="true"
+            android:text="@string/btn_2"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
